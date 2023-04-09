@@ -57,4 +57,28 @@ while getMore == True:
         f.write(artist.name + '\n')
 
 
+#
+# Get Album
+#
+open('../albums.csv', 'w').close()
+f = open("../albums.csv", "a")
+
+f.write('album,artist\n')
+
+getMore = True
+limit = 1000
+offset = 0
+
+while getMore == True:
+
+    albums = favorites.albums(limit, offset);
+    offset += limit;
+    if len(albums) == 0:
+        getMore = False
+
+    for album in albums:
+        f.write(','.join([album.name, album.artist.name]) + '\n')
+
+
+
 
