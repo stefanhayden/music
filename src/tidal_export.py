@@ -4,11 +4,20 @@
 import csv
 import sys
 import pprint
+from pathlib import Path
 
 import tidalapi
 
 session = tidalapi.Session()
-session.login_oauth_simple()
+
+try: 
+    session.load_session_from_file(Path('../.authCache.txt'))
+    if session.check_login() == False:
+        raise Exception('no auth saved')
+except Exception:
+    session.login_oauth_simple()
+    session.save_session_to_file(Path('../.authCache.txt'))
+
 favorites = tidalapi.Favorites(session, session.user.id)
 
 #
