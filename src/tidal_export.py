@@ -20,6 +20,9 @@ except Exception:
 
 favorites = tidalapi.Favorites(session, session.user.id)
 
+def cleanForCsv(val: str):
+    return val.replace(',', '').replace('"', '')
+
 #
 # Get Tracks
 #
@@ -40,7 +43,7 @@ while getMore == True:
         getMore = False
 
     for track in tracks:
-        f.write(','.join([track.name.replace(',', ''), track.album.name, track.artist.name]) + '\n')
+        f.write(','.join([cleanForCsv(track.name), cleanForCsv(track.album.name), cleanForCsv(track.artist.name)]) + '\n')
 
 
 #
