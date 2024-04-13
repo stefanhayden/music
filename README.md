@@ -22,7 +22,7 @@ script should only take a few seconds to run at most.
 
 ## Music Unavailable Fix
 
-For each unavilible song in your tacks list it will find track from the same artists with excact title matches and swap them.
+For each unavilible song in your tacks list or playlist it will find track from the same artists with excact title matches and swap them.
 
 cd in to the `src` dir
 
