@@ -9,7 +9,7 @@ track,album,artist
 1985,A Hangover You Don't Deserve,Bowling For Soup
 1994,1994,Cavetown
 1 Billion Dogs,Everybody Works,Jay Som
-1 step forward, 3 steps back,SOUR,Olivia Rodrigo
+1 step forward 3 steps back,SOUR,Olivia Rodrigo
 $20,the record,boygenius
 20s,20s,Bow Anderson
 24,24,Sundial
@@ -25,8 +25,8 @@ $20,the record,boygenius
 '92 Subaru,Traffic And Weather,Fountains Of Wayne
 9am,It Hurts,Bad Bad Hats
 9 to 5,9 To 5 And Odd Jobs,Dolly Parton
-Aaron Burr, Sir,Hamilton (Original Broadway Cast Recording),Lin-Manuel Miranda
-Aaron Burr, Sir,Hamilton (Original Broadway Cast Recording),Lin-Manuel Miranda
+Aaron Burr Sir,Hamilton (Original Broadway Cast Recording),Lin-Manuel Miranda
+Aaron Burr Sir,Hamilton (Original Broadway Cast Recording),Lin-Manuel Miranda
 ABC,The Definitive Collection,The Jackson 5
 ABC,We Are The Pipettes,The Pipettes
 ABC (feat. Sophia Black),Remember That You Will Die,Polyphia
@@ -74,8 +74,8 @@ All The Pretty Girls,Aim and Ignite (Deluxe Version),fun.
 All The Pretty Girls,Aim and Ignite (Deluxe Version),fun.
 Almost Fairy Tale,Almost Fairy Tale,Rabbit!
 Alone Sometimes,Where'd Your Weekend Go?,The Mowgli's
-Alone, Together,Is This It,The Strokes
-Alone, Together,Is This It,The Strokes
+Alone Together,Is This It,The Strokes
+Alone Together,Is This It,The Strokes
 A Long December,Recovering The Satellites,Counting Crows
 Alouette & Me,Go!,Letters To Cleo
 Alpha Beta Parking Lot,Prolonging The Magic (Deluxe Version),CAKE
@@ -97,7 +97,7 @@ Anna Lee,Broom,Someone Still Loves You Boris Yeltsin
 Anne Elephant,Broom,Someone Still Loves You Boris Yeltsin
 Annie Oakley,Tell It to the Volcano,Miniature Tigers
 Annie Waits,Rockin' The Suburbs,Ben Folds
-Another Girl, Another Planet (2008 re-mastered version),The Only Ones,The Only Ones
+Another Girl Another Planet (2008 re-mastered version),The Only Ones,The Only Ones
 Another One Bites The Dust (Remastered 2011),The Game (Deluxe Remastered Version),Queen
 Another Sunny Day,The Life Pursuit,Belle & Sebastian
 Anxieties (Out of Time),Further Joy,The Regrettes
@@ -105,7 +105,7 @@ Apathy,Quitting Season,Work Wife
 Apple Tree,Go for It,Rabbit!
 April,Honeymoon,Beach Bunny
 April Blossoms,Time Apart,The Prescriptions
-Archie, Marry Me,Alvvays,Alvvays
+Archie Marry Me,Alvvays,Alvvays
 Archipelago,Everything A Girl Could Ask,The Dreaded Laramie
 A Real Thing,A Real Thing,The Beths
 are you?,are you?,Zeph
@@ -135,10 +135,10 @@ A Winters Sky,We Are The Pipettes,The Pipettes
 Awkward,Blonde Album,Lightning Love
 Awkward Kisser,Telekinesis!,Telekinesis
 Awkward Situation,Cut out and Keep,Farrah
-Baby, Baby,Heart In Motion,Amy Grant
+Baby Baby,Heart In Motion,Amy Grant
 Baby Fratelli,Costello Music,The Fratellis
-Baby, It's A Long Way Down,Play With Your Head,Candy Butchers
-Baby, Just Be Yourself,We Are The Pipettes,The Pipettes
+Baby It's A Long Way Down,Play With Your Head,Candy Butchers
+Baby Just Be Yourself,We Are The Pipettes,The Pipettes
 Baby Lee,Shadows,Teenage Fanclub
 Back in the Saddle,Let It Sway (Deluxe Edition),Someone Still Loves You Boris Yeltsin
 Back in the Saddle,Tape Club,Someone Still Loves You Boris Yeltsin
@@ -341,7 +341,7 @@ Charlie,Hang On Mike,Candy Butchers
 Chatroom,Young Enough,Charly Bliss
 Cheatin',New Miserable Experience,Gin Blossoms
 Chelsea Dagger,Costello Music,The Fratellis
-Chemical, Chemical,The New Romance,Pretty Girls Make Graves
+Chemical Chemical,The New Romance,Pretty Girls Make Graves
 Children of the 90's (I'm Not the Same),Steel Train,Steel Train
 Chili Cook-Off,Tape Club,Someone Still Loves You Boris Yeltsin
 Chinese,It's Not Me, It's You,Lily Allen
@@ -645,11 +645,11 @@ Frank Sinatra,Fashion Nugget,CAKE
 Freakin' Me Out,Where'd Your Weekend Go?,The Mowgli's
 Freak of the Week,Hey! Album,Marvelous 3
 Freak of the Week,90s Rock Beyond the Hits,Marvelous 3
-Fred Jones, Pt. 2,Rockin' The Suburbs,Ben Folds
+Fred Jones Pt. 2,Rockin' The Suburbs,Ben Folds
 Freestyle,Cocoon Crash,K's Choice
 French Navy,French Navy,Camera Obscura
 French Navy,My Maudlin Career,Camera Obscura
-Frenchy, I'm Faking,In Case We Die,Architecture In Helsinki
+Frenchy I'm Faking,In Case We Die,Architecture In Helsinki
 Friday I'm in Love,Greatest Hits,The Cure
 Friday Night,Air Guitar,Sobs
 Friends,November Birthday,Lightning Love
@@ -799,7 +799,7 @@ Heart Of Glass (Single Version / Remastered),Heart Of Glass,Blondie
 Heart's Not There,Get Over It!,Care Bears on Fire
 Heaven Is A Place On Earth,Heaven on Earth (30th Anniversary Edition),Belinda Carlisle
 HEERS,Pershing,Someone Still Loves You Boris Yeltsin
-Hello, Goodbye (Remastered 2009),Magical Mystery Tour (Remastered),The Beatles
+Hello Goodbye (Remastered 2009),Magical Mystery Tour (Remastered),The Beatles
 Hello It's Me,Something / Anything?,Todd Rundgren
 Help Help,Re-Arrange Us,Mates of State
 Help I'm Alive,Fantasies,Metric
@@ -817,7 +817,7 @@ He Wasn't There,It's Not Me, It's You,Lily Allen
 Hey Boy,Poor Aim: Love Songs,The Blow
 Hey Jealousy,New Miserable Experience,Gin Blossoms
 Hey Jealousy,New Miserable Experience,Gin Blossoms
-Hey, Johnny Park!,The Colour And The Shape,Foo Fighters
+Hey Johnny Park!,The Colour And The Shape,Foo Fighters
 Hey Jude (Remastered 2015),1 (Remastered),The Beatles
 Hey Julie,Welcome Interstate Managers,Fountains Of Wayne
 Hey Leonardo (she likes me for me),Walking Off The Buzz,Blessid Union Of Souls
@@ -881,7 +881,7 @@ I Believe (Get Over Yourself),Lead to Light,Nico Vega
 I Believe in a Thing Called Love,Permission to Land,The Darkness
 I Can Feel It,Twice Removed,Sloan
 I Can Only Be Me,I Can Only Be Me,Mars Argo
-I Can't Help Myself (Sugar Pie, Honey Bunch),Four Tops - Second Album,Four Tops
+I Can't Help Myself (Sugar Pie Honey Bunch),Four Tops - Second Album,Four Tops
 Icky Thump,Icky Thump,The White Stripes
 I Could Be There for You,Combinations (Standard Version),Eisley
 I Could Say,It's Not Me, It's You,Lily Allen
@@ -984,7 +984,7 @@ It Just Is,More Adventurous (U.S. Release),Rilo Kiley
 it'll be alright,it'll be alright,Ellis
 It Only Gets Much Worse,Grand Romantic,Nate Ruess
 It's 5!,In Case We Die,Architecture In Helsinki
-It's Afternoon, I'm Feeling Sick,Ed Buys Houses,Sidney Gish
+It's Afternoon I'm Feeling Sick,Ed Buys Houses,Sidney Gish
 It's a Hit,More Adventurous (U.S. Release),Rilo Kiley
 It's A Line,Play With Your Head,Candy Butchers
 It's Alright,Dance And Cry,Mother Mother
@@ -1019,7 +1019,7 @@ I Will Survive (Single Version),20th Century Masters: The Millennium Collection:
 I Will Survive,Fashion Nugget,CAKE
 I Wish,The Valley (Deluxe),Eisley
 Jagged,Hit By a Train: The Best of Old 97's,Old 97's
-jealousy, jealousy,SOUR,Olivia Rodrigo
+jealousy jealousy,SOUR,Olivia Rodrigo
 Jennifer,Wholesale Meats And Fish,Letters To Cleo
 Jenny,Crybaby,Beach Bunny
 Jeremy,Fixed Ideals,Muncie Girls
@@ -1033,7 +1033,7 @@ Joining A Fan Club,Spilt Milk (Remastered),Jellyfish
 Judy,We Are The Pipettes,The Pipettes
 Juliet,Double Line,Dragon Inn 3
 July,Pool Party,Beach Bunny
-July, July!,Castaways and Cutouts,The Decemberists
+July July!,Castaways and Cutouts,The Decemberists
 Jump Jive An' Wail (Album Version),The Dirty Boogie,Brian Setzer
 Jumpstarted,Off To The Races,Jukebox The Ghost
 June Gloom,Are You Thinking What I'm Thinking?,The Like
@@ -1130,7 +1130,7 @@ Littlest Things,Alright, Still (Bonus Track Version),Lily Allen
 Live A Little,Live A Little,Better Than Ezra
 Live Forever,Definitely Maybe (Deluxe Edition Remastered),Oasis
 Live-In Skin,There Is Nothing Left To Lose,Foo Fighters
-Lloyd, I'm Ready To Be Heartbroken,Let's Get Out Of This Country,Camera Obscura
+Lloyd I'm Ready To Be Heartbroken,Let's Get Out Of This Country,Camera Obscura
 Lola (2014 Remastered Version),Lola vs. Powerman and the Moneygoround, Pt. One + Percy (Super Deluxe),The Kinks
 Lolita,Moonbeams,Throw Me The Statue
 London Calling (Remastered),London Calling (Remastered),The Clash
@@ -1165,7 +1165,7 @@ Love Will,#1,Suburban Kids With Biblical Names
 Love You For A Long Time,Love You For A Long Time,Maggie Rogers
 Love You Madly,Comfort Eagle,CAKE
 Love You Much Better,Goodbye Blues,The Hush Sound
-Lower the Gas Prices, Howard Johnson,Tape Club,Someone Still Loves You Boris Yeltsin
+Lower the Gas Prices Howard Johnson,Tape Club,Someone Still Loves You Boris Yeltsin
 Lowlife,Bubblebath,Poppy
 Lucky,Back of My Mind,H.E.R.
 Lucky Break,Lucky Break,Jack Campbell
@@ -1183,7 +1183,7 @@ Magnet's New Summer 'Do,The High Country,Someone Still Loves You Boris Yeltsin
 Make Believe,Time 'n' Place,Kero Kero Bonito
 Make It Right,Kids In Love,The Mowgli's
 Make No Mistake,Play With Your Head,Candy Butchers
-Make Out (Live Session, Los Angeles, CA, 2015),Jam in the Van - Julia Nunes (Live Session, Los Angeles, CA, 2015),Jam in the Van
+Make Out (Live Session Los Angeles CA 2015),Jam in the Van - Julia Nunes (Live Session, Los Angeles, CA, 2015),Jam in the Van
 Making Do,Making Do,Lake Street Dive
 Making It Up,Say What You Mean,John-Allison Weiss
 Malibu,Celebrity Skin,Hole
@@ -1258,8 +1258,8 @@ Ms. Dot,Fly By Wire,Someone Still Loves You Boris Yeltsin
 Murder in the Third,Double Line,Dragon Inn 3
 Murder (Or a Heart Attack),Fight Songs,Old 97's
 Mushaboom,Let It Die,Feist
-Musician, Please Take Heed,God Help The Girl (Original Soundtrack),Emily Browning and God Help the Girl
-Musician, Please Take Heed,God Help The Girl,God Help The Girl
+Musician Please Take Heed,God Help The Girl (Original Soundtrack),Emily Browning and God Help the Girl
+Musician Please Take Heed,God Help The Girl,God Help The Girl
 My Alcoholic Friends,Yes, Virginia,The Dresden Dolls
 My Best Friend's Girl,The Cars,The Cars
 My Dentist Hates Me !!!,The Rot That Grows Inside My Chest,Teenage Joans
@@ -1280,7 +1280,7 @@ My Shot,Hamilton (Original Broadway Cast Recording),Lin-Manuel Miranda
 My Slumbering Heart,The Execution Of All Things,Rilo Kiley
 My Terrible Personality,Let It Sway (Deluxe Edition),Someone Still Loves You Boris Yeltsin
 Naked Eye,Fever In Fever Out,Luscious Jackson
-Nameless, Faceless,Nameless, Faceless,Courtney Barnett
+Nameless Faceless,Nameless, Faceless,Courtney Barnett
 Nasty Girls,The Shape of Brat Pop to Come,holychild
 Natural Anthem,Give Up,The Postal Service
 Need Your Love,Swimmer,Tennis
@@ -1427,7 +1427,7 @@ Penny Lane (Remastered 2009),Magical Mystery Tour (Remastered),The Beatles
 Pens,Out of the Garden,Tancred
 Phantomwise,Tape Club,Someone Still Loves You Boris Yeltsin
 Phantomwise,Let It Sway (Deluxe Edition),Someone Still Loves You Boris Yeltsin
-Piazza, New York Catcher,Dear Catastrophe Waitress,Belle & Sebastian
+Piazza New York Catcher,Dear Catastrophe Waitress,Belle & Sebastian
 Pictures Of Success,Take Offs And Landings,Rilo Kiley
 Piece Of My Heart,Fearless,Keri Noble
 Pink Lemonade,Go for It,Rabbit!
@@ -1560,7 +1560,7 @@ Satisfied,Hamilton (Original Broadway Cast Recording),Renée Elise Goldsberry
 Save Me,Finally Woken,Jem
 Save Tonight,Desireless,Eagle-Eye Cherry
 Say It Ain't So,Weezer (Blue Album),Weezer
-Say It, Just Say It,Waiting For The Dawn,The Mowgli's
+Say It Just Say It,Waiting For The Dawn,The Mowgli's
 Say It (To My Face),Say It (To My Face),Meet Me @ The Altar
 Say No to This,Hamilton (Original Broadway Cast Recording),Jasmine Cephas Jones
 Say What You Mean,Say What You Mean,John-Allison Weiss
@@ -1735,7 +1735,7 @@ Such Great Heights,Around The Well,Iron & Wine
 Suckerpunch,The Spade,Butch Walker
 Suddenly I See,Eye To The Telescope,KT Tunstall
 SugarBuzz,Sugarbuzz,Marvelous 3
-Sugar, Sugar,Sugar Sugar,The Archies
+Sugar Sugar,Sugar Sugar,The Archies
 Sullen Girl,Tidal,Fiona Apple
 Summer of 89,The Spade,Butch Walker
 Summer Skin,Plans,Death Cab For Cutie
@@ -1745,7 +1745,7 @@ Sunny Came Home,A Few Small Repairs,Shawn Colvin
 Sunroof,Sunroof,Nicky Youre
 Sunshowers,Arular,M.I.A.
 Sun Shy,Sun Shy,Dresses
-Sun, Sun, Sun,Sun, Sun, Sun,The Elected
+Sun Sun Sun,Sun, Sun, Sun,The Elected
 Supalonely,STELLA & STEVE,BENEE
 Super America,It Hurts,Bad Bad Hats
 Supercollider,Welcome Interstate Managers,Fountains Of Wayne
@@ -1809,7 +1809,7 @@ Ten Thousand Lines,S / T,Electric President
 Thank God You Introduced Me to Your Sister,Thank God You Introduced Me to Your Sister,Sarah Barrios
 Thank You,No Angel,Dido
 That's Okay,Goodbye Blues,The Hush Sound
-That's Physics, Baby,Pool Kids,Pool Kids
+That's Physics Baby,Pool Kids,Pool Kids
 That's What Makes Me Love You,Further Joy,The Regrettes
 That's What You Get,Riot!,Paramore
 That Thing You Do!,That Thing You Do! Original Motion Picture Soundtrack,The Wonders
@@ -1919,7 +1919,7 @@ This Spark,Selection Box, Vol. 1,Amoeba Teen
 This Year,The Sunset Tree,The Mountain Goats
 Three Hopeful Thoughts,The Execution Of All Things,Rilo Kiley
 Three Minute Mile,Double Line,Dragon Inn 3
-Tiger, Tiger,Grrr...,Bishop Allen
+Tiger Tiger,Grrr...,Bishop Allen
 TiK ToK,Animal (Expanded Edition),Kesha
 Til I Hear It From You,Outside Looking In: The Best Of The Gin Blossoms,Gin Blossoms
 Til I Hear It From You,Til I Hear It From You,Gin Blossoms
@@ -1984,7 +1984,7 @@ Undone - The Sweater Song,Weezer (Blue Album),Weezer
 Unearth,Fly By Wire,Someone Still Loves You Boris Yeltsin
 Unexpected Traffic,Hang On Mike,Candy Butchers
 Unholy,Sonder,The Wrecks
-Uninspired, Blowing Smoke,(I Am) Origami Pt. 4 - Marathon Daze,John Van Deusen
+Uninspired Blowing Smoke,(I Am) Origami Pt. 4 - Marathon Daze,John Van Deusen
 Unless I'm Led,Mountaintops,Mates of State
 Until I Fall Away,New Miserable Experience,Gin Blossoms
 Until I Fall Away,New Miserable Experience,Gin Blossoms
@@ -2019,7 +2019,7 @@ Volcano,Volcano,The Moving Stills
 Volcano Girls,Eight Arms To Hold You,Veruca Salt
 Wait for It,Hamilton (Original Broadway Cast Recording),Leslie Odom Jr.
 Wait for Me,Say What You Mean,John-Allison Weiss
-Wait, Wait,November Birthday,Lightning Love
+Wait Wait,November Birthday,Lightning Love
 Wake Me Up Before You Go-Go,The Final,Wham!
 Wake Up,Funeral,Arcade Fire
 Wake Up,Most Wanted,Hilary Duff
@@ -2045,7 +2045,7 @@ Waterbed,Waterbed,Tired Lion
 Waterfalls,Ventriloquism,Meshell Ndegeocello
 We Are The Champions,News Of The World (Deluxe Remastered Version),Queen
 We Are The Crystal Gems (feat. Zach Callison) [Change Your Mind Version],Steven Universe, Vol. 2 (Original Soundtrack),Steven Universe
-We Are The Crystal Gems (feat. Zach Callison, Estelle, Deedee Magno Hall, Michaela Dietz & Tom Scharpling) [Full Theme Song],Steven Universe, Vol. 1 (Original Soundtrack),Steven Universe
+We Are The Crystal Gems (feat. Zach Callison Estelle Deedee Magno Hall Michaela Dietz & Tom Scharpling) [Full Theme Song],Steven Universe, Vol. 1 (Original Soundtrack),Steven Universe
 We Are The Pipettes,We Are The Pipettes,The Pipettes
 We Are Young (feat. Janelle Monáe),We Are Young (feat. Janelle Monáe),fun.
 We Belong,Tropico,Pat Benatar
@@ -2090,7 +2090,7 @@ What To Do With Michael,Hang On Mike,Candy Butchers
 What Was I Made For?,Barbie The Album,Billie Eilish
 What You Know,Tourist History,Two Door Cinema Club
 When It Started,Is This It,The Strokes
-When They Fight, They Fight,Con Law,Generationals
+When They Fight They Fight,Con Law,Generationals
 When We Were Young,Go for It,Rabbit!
 When You Know You Know,Expert In A Dying Field,The Beths
 When You Sleep,Girls Who Look Like Me,Lightning Love
@@ -2105,7 +2105,7 @@ White Flag,Life For Rent,Dido
 Who'd Have Known,It's Not Me, It's You,Lily Allen
 Who'd Stop The Rain,Electrified,Dressy Bessy
 Who Knows Who Cares,Gorilla Manor,Local Natives
-Who Lives, Who Dies, Who Tells Your Story,Hamilton (Original Broadway Cast Recording),Original Broadway Cast of Hamilton
+Who Lives Who Dies Who Tells Your Story,Hamilton (Original Broadway Cast Recording),Original Broadway Cast of Hamilton
 Why Am I the One,Some Nights,fun.
 Why Bother?,Pinkerton,Weezer
 Why Can't I?,Liz Phair,Liz Phair
@@ -2160,7 +2160,7 @@ You'll Get Old,The Golden Republic,The Golden Republic
 You Make My Dreams (Come True),The Very Best of Daryl Hall / John Oates,Daryl Hall & John Oates
 You Make My Dreams (Come True),Voices,Daryl Hall & John Oates
 You & Me,Good & Evil,Tally Hall
-You, Me and the Bourgeoisie,Honeysuckle Weeks,The Submarines
+You Me and the Bourgeoisie,Honeysuckle Weeks,The Submarines
 You! Me! Dancing!,Hold On Now, Youngster,Los Campesinos!
 Young Enough,Young Enough,Charly Bliss
 Young Folks,Indie Para Carretera,Peter Bjorn and John
@@ -2174,8 +2174,8 @@ Your Easy Lovin' Ain't Pleasin' Nothin',A Strange Arrangement,Mayer Hawthorne
 (You're Better) Than Ever,Kiss Yr Frenemies,illuminati hotties
 You’re here that’s the thing,Beatopia,beabadoobee
 You're Not Alone,Kids In Love,The Mowgli's
-You're Not Special, Babe,Woman on the Internet,Orla Gartland
-You're Not Special, Babe,You're Not Special, Babe,Orla Gartland
+You're Not Special Babe,Woman on the Internet,Orla Gartland
+You're Not Special Babe,You're Not Special, Babe,Orla Gartland
 You're Not The President,The Rot That Grows Inside My Chest,Teenage Joans
 You're so Yesterday,Hey! Album,Marvelous 3
 Your Ex-Lover Is Dead,Set Yourself On Fire,Stars

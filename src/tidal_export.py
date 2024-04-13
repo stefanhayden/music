@@ -40,7 +40,7 @@ while getMore == True:
         getMore = False
 
     for track in tracks:
-        f.write(','.join([track.name, track.album.name, track.artist.name]) + '\n')
+        f.write(','.join([track.name.replace(',', ''), track.album.name, track.artist.name]) + '\n')
 
 
 #
