@@ -24,11 +24,6 @@ favorites = tidalapi.Favorites(session, session.user.id)
 # Get Tracks
 #
 def getTracks():
-    open('../tracks.csv', 'w').close()
-    f = open("../tracks.csv", "a")
-
-    f.write('track,album,artist\n')
-
     getMore = True
     limit = 1000
     offset = 0
