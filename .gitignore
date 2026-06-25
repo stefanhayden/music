@@ -1,1 +1,3 @@
 .authCache.txt
+.venv
+__pycache__/

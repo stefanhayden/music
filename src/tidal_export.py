@@ -1,22 +1,9 @@
 # You need to install tidalapi using pip install tidalapi (more can be found here https://github.com/tamland/python-tidal)
 # had to be fixed with https://github.com/tamland/python-tidal/pull/130
 
-import csv
-import sys
-import pprint
-from pathlib import Path
-
 import tidalapi
 
-session = tidalapi.Session()
-
-try: 
-    session.load_session_from_file(Path('../.authCache.txt'))
-    if session.check_login() == False:
-        raise Exception('no auth saved')
-except Exception:
-    session.login_oauth_simple()
-    session.save_session_to_file(Path('../.authCache.txt'))
+from auth import session
 
 favorites = tidalapi.Favorites(session, session.user.id)
 
@@ -26,71 +13,58 @@ def cleanForCsv(val: str):
 #
 # Get Tracks
 #
-open('../tracks.csv', 'w').close()
-f = open("../tracks.csv", "a")
+with open('../tracks.csv', 'w') as f:
+    f.write('track,album,artist\n')
 
-f.write('track,album,artist\n')
+    getMore = True
+    limit = 1000
+    offset = 0
 
-getMore = True
-limit = 1000
-offset = 0
+    while getMore:
+        tracks = favorites.tracks(limit, offset)
+        offset += limit
+        if len(tracks) == 0:
+            getMore = False
 
-while getMore == True:
-
-    tracks = favorites.tracks(limit, offset);
-    offset += limit;
-    if len(tracks) == 0:
-        getMore = False
-
-    for track in tracks:
-        f.write(','.join([cleanForCsv(track.name), cleanForCsv(track.album.name), cleanForCsv(track.artist.name)]) + '\n')
+        for track in tracks:
+            f.write(','.join([cleanForCsv(track.name), cleanForCsv(track.album.name), cleanForCsv(track.artist.name)]) + '\n')
 
 
 #
 # Get Artists
 #
-open('../artists.csv', 'w').close()
-f = open("../artists.csv", "a")
+with open('../artists.csv', 'w') as f:
+    f.write('artist\n')
 
-f.write('artist\n')
+    getMore = True
+    limit = 1000
+    offset = 0
 
-getMore = True
-limit = 1000
-offset = 0
+    while getMore:
+        artists = favorites.artists(limit, offset)
+        offset += limit
+        if len(artists) == 0:
+            getMore = False
 
-while getMore == True:
-
-    artists = favorites.artists(limit, offset);
-    offset += limit;
-    if len(artists) == 0:
-        getMore = False
-
-    for artist in artists:
-        f.write(artist.name + '\n')
+        for artist in artists:
+            f.write(cleanForCsv(artist.name) + '\n')
 
 
 #
-# Get Album
+# Get Albums
 #
-open('../albums.csv', 'w').close()
-f = open("../albums.csv", "a")
+with open('../albums.csv', 'w') as f:
+    f.write('album,artist\n')
 
-f.write('album,artist\n')
+    getMore = True
+    limit = 1000
+    offset = 0
 
-getMore = True
-limit = 1000
-offset = 0
+    while getMore:
+        albums = favorites.albums(limit, offset)
+        offset += limit
+        if len(albums) == 0:
+            getMore = False
 
-while getMore == True:
-
-    albums = favorites.albums(limit, offset);
-    offset += limit;
-    if len(albums) == 0:
-        getMore = False
-
-    for album in albums:
-        f.write(','.join([album.name, album.artist.name]) + '\n')
-
-
-
-
+        for album in albums:
+            f.write(','.join([cleanForCsv(album.name), cleanForCsv(album.artist.name)]) + '\n')
