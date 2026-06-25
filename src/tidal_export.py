@@ -34,7 +34,7 @@ with open('../tracks.csv', 'w') as f:
 # Get Artists
 #
 with open('../artists.csv', 'w') as f:
-    f.write('artist\n')
+    f.write('artist,id\n')
 
     getMore = True
     limit = 1000
@@ -47,7 +47,7 @@ with open('../artists.csv', 'w') as f:
             getMore = False
 
         for artist in artists:
-            f.write(cleanForCsv(artist.name) + '\n')
+            f.write(cleanForCsv(artist.name) + ',' + str(artist.id) + '\n')
 
 
 #
