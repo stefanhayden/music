@@ -1,3 +1,4 @@
 .authCache.txt
 .venv
 __pycache__/
+missing.json

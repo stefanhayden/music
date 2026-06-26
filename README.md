@@ -1,29 +1,62 @@
 # Music
 
-A collection of useful tidal scripts.
+A collection of scripts for backing up and maintaining your Tidal library.
 
-## Music Backup
+## Setup
 
-a quick way to pull your fav tracks and artists from your tidal. Never trust an online service to not loose or delete your stuff.
-
-## Getting Started
-
+```bash
 pip install -r requirements.txt
+```
 
-### Running the script
+All scripts are run from the `src/` directory:
 
-cd in to the `src` dir
+```bash
+cd src
+```
 
-run `python3 tidal_export.py`
+Authentication is handled automatically. The first time you run any script it will print an OAuth URL — open it in a browser, sign in, and grant access. Your session is saved to `.authCache.txt` so subsequent runs skip the login step.
 
-Open link that appears in console and sign in to allow script access to your account
+---
 
-script should only take a few seconds to run at most.
+## Scripts
 
-## Music Unavailable Fix
+### `tidal_export.py` — Back up your library
 
-For each unavilible song in your tacks list or playlist it will find track from the same artists with excact title matches and swap them.
+Exports your favorited tracks, albums, and artists to CSV files in the repo root:
 
-cd in to the `src` dir
+| File | Contents |
+|------|----------|
+| `tracks.csv` | track, album, artist |
+| `albums.csv` | album, artist |
+| `artists.csv` | artist, id |
 
-run `python3 available_track_fixer.py`
+Also writes `missing.json` listing any favorited items that are currently unavailable on Tidal (useful as input for the restore script).
+
+```bash
+python3 tidal_export.py
+```
+
+---
+
+### `restore_missing_tracks.py` — Re-add unavailable favorites
+
+Reads `missing.json` (produced by `tidal_export.py`) and searches Tidal for a matching available version of each unavailable track and album. When a match is found it is added back to your favorites.
+
+```bash
+python3 tidal_export.py        # generates missing.json
+python3 restore_missing_tracks.py  # searches and re-adds
+```
+
+For each item it prints whether it was `ADDED`, `NOT FOUND`, or hit an `ERROR`. Anything in the not-found list at the end needs to be re-added manually — those tracks may have been removed from Tidal entirely.
+
+---
+
+### `available_track_fixer.py` — Fix unavailable tracks and playlist items
+
+Scans your favorited tracks and all of your playlists. For each unavailable track it searches the artist's top tracks for an exact title match and swaps the old unavailable version for the new one.
+
+```bash
+python3 available_track_fixer.py
+```
+
+Prints a summary of how many tracks were fixed and which artists had tracks that couldn't be replaced.
